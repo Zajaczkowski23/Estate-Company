@@ -44,7 +44,7 @@ const Deals = () => {
             return (
               <Link
                 to={{
-                  pathname: `/${building.id}`,
+                  pathname: `/estate-company/${building.id}`,
                   state: {
                     image: building.image,
                     name: building.name,
@@ -73,7 +73,7 @@ const Deals = () => {
             return (
               <Link
                 to={{
-                  pathname: `/${building.id}`,
+                  pathname: `/estate-company/${building.id}`,
                   state: {
                     image: building.image,
                     name: building.name,
@@ -100,7 +100,7 @@ const Deals = () => {
             return (
               <Link
                 to={{
-                  pathname: `/${building.id}`,
+                  pathname: `/estate-company/${building.id}`,
                   state: {
                     image: building.image,
                     name: building.name,
