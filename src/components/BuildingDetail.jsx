@@ -10,7 +10,7 @@ const BuildingDetail = () => {
   return (
     <div className="bg-lightGray h-full animate-fade">
       <Link
-        to={"/estate-company"}
+        to={"/Estate-Company"}
         className="font-bold text-4xl cursor-pointer flex items-center mr-auto px-4 max-w-[1000px] mx-auto pt-5 hover:text-grayBlue transition-colors"
       >
         Company
