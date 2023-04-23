@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "src/assets/HouseWinter.png",
+    "image": "./src/assets/HouseWinter.png",
     "name": "House on the Lake",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "image": "src/assets/TownHouse.jpg",
+    "image": "./src/assets/TownHouse.jpg",
     "name": "Townhouse in the center",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "image": "src/assets/ModernHouse.jpg",
+    "image": "./src/assets/ModernHouse.jpg",
     "name": "Modern Glass House",
     "price": "1,625,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "image": "src/assets/OfficeOne.jpg",
+    "image": "./src/assets/OfficeOne.jpg",
     "name": "Office in the center",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -47,7 +47,7 @@
   },
   {
     "id": 5,
-    "image": "src/assets/Office2.jpg",
+    "image": "./src/assets/Office2.jpg",
     "name": "Office in the center",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -57,7 +57,7 @@
   },
   {
     "id": 6,
-    "image": "src/assets/AppartamentOne.jpg",
+    "image": "./src/assets/AppartamentOne.jpg",
     "name": "Appartament in the center",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "image": "src/assets/AppartamentTwo.jpg",
+    "image": "./src/assets/AppartamentTwo.jpg",
     "name": "Appartament in the center",
     "price": "225,000",
     "address": "14 Niemciewicz, Warsaw",
