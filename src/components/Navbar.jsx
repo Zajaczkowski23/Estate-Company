@@ -44,6 +44,7 @@ const Navbar = () => {
                   offset={50}
                   duration={500}
                   className="sm:text-white font-bold group transition duration-300 cursor-pointer text-xl sm:text-base"
+                  onClick={() => setOpen(!open)}
                 >
                   {item.option}
                   <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[2.5px] bg-orange rounded-full"></span>
