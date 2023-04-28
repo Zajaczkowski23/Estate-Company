@@ -36,7 +36,7 @@ const Navbar = () => {
         >
           {items.map((item) => {
             return (
-              <li className="sm:mr-14 mb-7 mt-10 sm:mb-0 sm:mt-0">
+              <li className="sm:mr-14 mb-7 mt-10 sm:mb-0 sm:mt-0" key={item.id}>
                 <Link
                   to={item.to}
                   spy={true}

@@ -58,6 +58,7 @@ const Deals = () => {
               >
                 <Building
                   image={building.image}
+                  imageSrc={building.imageSrc}
                   name={building.name}
                   price={building.price}
                   address={building.address}

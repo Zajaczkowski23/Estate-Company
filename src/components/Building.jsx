@@ -5,6 +5,7 @@ const Building = ({ image, name, price, address, beds, bath, sqft, id }) => {
         src={image}
         alt="picture of the house on sale"
         className="w-[350px] h-[190px] object-cover"
+        loading="lazy"
       />
       <div className="p-[30px]">
         <div className="text-grayBlue font-bold text-[15px]">{name}</div>

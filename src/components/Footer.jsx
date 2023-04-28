@@ -17,7 +17,10 @@ const Footer = () => {
         <ul className="flex flex-col gap-y-2 item">
           {items.map((item) => {
             return (
-              <li className="text-grayBlue-70 font-bold text-sm hover:text-grayBlue duration-200 transition cursor-pointer">
+              <li
+                className="text-grayBlue-70 font-bold text-sm hover:text-grayBlue duration-200 transition cursor-pointer"
+                key={item.id}
+              >
                 <Link
                   to={item.to}
                   spy={true}
